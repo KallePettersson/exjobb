@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05758a53.css",
+    "main.js": "/static/js/main.8fd900a7.js",
+    "static/js/787.f9da4728.chunk.js": "/static/js/787.f9da4728.chunk.js",
+    "static/media/mountain.jpg": "/static/media/mountain.788f3c7c0e0aebe02f82.jpg",
+    "static/media/iba.jpg": "/static/media/iba.1c4a24731dce7a5d0168.jpg",
+    "static/media/fast.jpg": "/static/media/fast.1a74a748a251b391a431.jpg",
+    "static/media/fubuki.jpg": "/static/media/fubuki.842bf1eb697adcec6f68.jpg",
+    "static/media/nust.jpg": "/static/media/nust.a9bddc22a68057207a3c.jpg",
+    "static/media/techstack.png": "/static/media/techstack.35773add4109fce669b4.png",
+    "static/media/spin-loading.gif": "/static/media/spin-loading.d2e5d9ce01d13a1485be.gif",
+    "static/media/teaching-vector.jpg": "/static/media/teaching-vector.320d488e65d82d9d26a8.jpg",
+    "static/media/default-loading.gif": "/static/media/default-loading.149a1153e7b22b325ac9.gif",
+    "static/media/loading2.gif": "/static/media/loading2.3d2532f06ab146c827a7.gif",
+    "static/media/user.png": "/static/media/user.5e39b5b446be792e0a50.png",
+    "static/media/delete-loader.gif": "/static/media/delete-loader.2618417c83ddc30ea251.gif",
+    "static/media/default-loading-gray.gif": "/static/media/default-loading-gray.e2df77b680084bf32162.gif",
+    "static/media/edubytes.png": "/static/media/edubytes.b44f38dfa82314516a84.png",
+    "static/media/adddetail.png": "/static/media/adddetail.2d39afd5929dd4ff0d5e.png",
+    "static/media/facebook.png": "/static/media/facebook.d1eb4f9cca40812adddf.png",
+    "static/media/view.png": "/static/media/view.c19b9e3590579a3ec888.png",
+    "static/media/linkedin.png": "/static/media/linkedin.7be0d03cfd01c190b772.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/to-do-list.png": "/static/media/to-do-list.ed7b1c334a2d2a8073db.png",
+    "static/media/pdf.png": "/static/media/pdf.0de9ad177c04f930d5a9.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "static/media/infinity.svg": "/static/media/infinity.816c9333d70289c16614e24eefa5b51c.svg",
+    "main.05758a53.css.map": "/static/css/main.05758a53.css.map",
+    "main.8fd900a7.js.map": "/static/js/main.8fd900a7.js.map",
+    "787.f9da4728.chunk.js.map": "/static/js/787.f9da4728.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05758a53.css",
+    "static/js/main.8fd900a7.js"
+  ]
+}

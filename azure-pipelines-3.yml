@@ -1,0 +1,66 @@
+# Node.js
+
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- none #Change to master for ci
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '14.x'
+  displayName: 'Install Node.js'
+
+# SCA scan with Snyk
+- task: SnykSecurityScan@1
+  inputs:
+    serviceConnectionEndpoint: 'Snyk-SCA-connection'
+    testType: 'app'
+    monitorWhen: 'always'
+    failOnIssues: false
+
+# Install node dependencies and build front-end(optional)
+- script: |
+    echo running server install
+    npm install
+    echo running client install
+    npm run client-install
+    echo Running client build
+    # npm run client-build
+  displayName: 'npm install all and build'
+
+# Zip, archive and publish the build artifact 
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+# Publish build artifact
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
+
+
+# SAST analysis with coverity
+
+
+
+# Deploy the webapp using the zip file from the archive step
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'kalle-sp2'
+    appType: 'webAppLinux'
+    appName: 'kalle-test-env'
+    package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    startUpCommand: 'npm run start'

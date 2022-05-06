@@ -1,0 +1,12 @@
+.Container {
+    margin: 0 auto;
+    width: 550px;
+    
+
+}
+
+@media only screen and (max-width: 850px) {
+    .Container {
+        width: 95%;
+    }
+}
