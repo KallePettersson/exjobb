@@ -6,13 +6,13 @@
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.4.4",
-    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.26.0",
+    "axios": "^1.6.8",
     "dotenv": "^16.0.0",
     "mdb-react-ui-kit": "^2.3.0",
-    "parcel": "^2.3.2",
+    "parcel": "^2.9.3",
     "pure-react-carousel": "^1.28.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -26,7 +26,7 @@
     "style-loader": "^3.3.1",
     "use-state-with-callback": "^2.0.3",
     "web-vitals": "^2.1.4",
-    "webpack": "^5.70.0"
+    "webpack": "^5.79.0"
   },
   "scripts": {
     "start": "react-scripts start",
