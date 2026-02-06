@@ -12,7 +12,7 @@
     "axios": "^0.26.0",
     "dotenv": "^16.0.0",
     "mdb-react-ui-kit": "^2.3.0",
-    "parcel": "^2.3.2",
+    "parcel": "^2.16.4",
     "pure-react-carousel": "^1.28.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -26,7 +26,7 @@
     "style-loader": "^3.3.1",
     "use-state-with-callback": "^2.0.3",
     "web-vitals": "^2.1.4",
-    "webpack": "^5.70.0"
+    "webpack": "^5.104.1"
   },
   "scripts": {
     "start": "react-scripts start",
